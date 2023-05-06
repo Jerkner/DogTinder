@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    padding: 0;
+    width: 550px;
+    height: 973px;
+    margin: 1.25vh auto;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F6F7FB 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Header */
+
+header {
+    background-color: #FFF;
+    height: 81px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    margin: 20px;
+}
+
+/* Main section */
+
+.dog-container {
+    height: 750px;
+    width: 534px;
+    margin: 0 8px;
+    position: relative;
+}
+
+.dog-container img {
+    border-radius: 15px;
+    width: 100%;
+}
+
+.dog-text {
+    position: absolute;
+    bottom: 16px;
+    left: 12px;
+}
+
+.info {
+    margin: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 36px;
+    color: #F8F8F8;
+}
+
+.bio {
+    margin: 0;
+    margin-top: 7px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #B7B7B7;
+}
+
+#like,
+#nope {
+    margin: 0;
+    position: absolute;
+    top: -18px;
+    left: -128px;
+    transform: rotate(-30deg) scale(45%);
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer img {
+    padding: 25px;
+}
+
+#cross,
+#heart {
+    overflow: hidden;
+    margin: 24px 12px;
+    background-color: #FFF;
+    border-radius: 50%;
+}
+
+#cross:hover,
+#cross:focus {
+    background: #FFE7EF;
+    box-shadow: 0px 10px 20px #EDD9DF;
+}
+
+#heart:hover,
+#heart:focus {
+    background: #DBFFF4;
+    box-shadow: 0px 10px 20px #CCF1E6;
+}
+
+img,
+h3,
+p {
+    cursor: pointer;
+    user-select: none;
+}
